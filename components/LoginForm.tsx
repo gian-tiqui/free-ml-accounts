@@ -58,6 +58,7 @@ const LoginForm = () => {
               key={randomNum}
               className="bg-blue-500 w-40 h-10 font-bold rounded text-white"
               onMouseEnter={handleMouseEnter}
+              onClick={handleMouseEnter}
             >
               Sign in
             </motion.button>
