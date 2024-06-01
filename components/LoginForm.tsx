@@ -17,8 +17,8 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="h-[400px] w-[400px] bg-white rounded-lg shadow-2xl flex items-center justify-center p-4">
-      <form className="w-full">
+    <div className="h-[350px] md:h-[400px] w-[400px] bg-white rounded-lg shadow-2xl flex items-center justify-center p-4">
+      <div className="w-full">
         <h1 className="text-xl font-extrabold text-center mb-6">
           Welcome! Sign in here
         </h1>
@@ -64,7 +64,7 @@ const LoginForm = () => {
             </motion.button>
           </motion.div>
         </AnimatePresence>
-      </form>
+      </div>
     </div>
   );
 };
